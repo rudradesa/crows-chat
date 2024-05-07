@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.name-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.massage-container {
+    list-style-type: none;
+    padding: 0;
+}
+
+.massage-container li {
+    margin-bottom: 10px;
+}
+
+.massage-left {
+    text-align: left;
+}
+
+.massage-right {
+    text-align: right;
+}
+
+.message {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.message span {
+    color: #999;
+    font-size: 12px;
+    position: relative;
+    bottom: -20px;
+    padding-left: 0px;
+    padding-top: 40px;
+    right: 5px;
+}
+
+.message-feedback {
+    text-align: center;
+}
+
+.feedback {
+    color: #999;
+}
+
+.massage-form {
+    display: flex;
+    align-items: center;
+}
+
+.massage-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.v-divider {
+    width: 10px;
+    height: 100%;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+}
+
+.sent-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sent-btn span {
+    margin-left: 5px;
+}
+
+.clints-total {
+    text-align: center;
+    color: #999;
+    margin-top: 20px;
+}
+
+.about {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.about:hover {
+    text-decoration: underline;
+}
+
